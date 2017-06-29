@@ -33,6 +33,10 @@ int main(int argc, const char * argv[]) {
     
     print_list(li);
     
+    struct student student_search;
+    printf("\n%d\n\n", search_by_position(li, 1, &student_search));
+    printf("\n%d\n\n", search_by_registry(li, 3, &student_search));
+    
     free_list(li);
     return 0;
 }

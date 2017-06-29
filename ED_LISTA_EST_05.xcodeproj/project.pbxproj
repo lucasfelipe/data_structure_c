@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D703CE691F052E5500F24AA9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D703CE681F052E5500F24AA9 /* main.c */; };
+		D703CE6F1F052E7F00F24AA9 /* DoubleChainedList.c in Sources */ = {isa = PBXBuildFile; fileRef = D703CE6D1F052E7F00F24AA9 /* DoubleChainedList.c */; };
 		D7368AAA1EBBCB56003D2076 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D7368AA91EBBCB56003D2076 /* main.c */; };
 		D7368AB21EBBCC08003D2076 /* ListaSequencial.c in Sources */ = {isa = PBXBuildFile; fileRef = D7368AB11EBBCC08003D2076 /* ListaSequencial.c */; };
 		D792D39A1F03E73C00F8C738 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D792D3991F03E73C00F8C738 /* main.c */; };
@@ -14,6 +16,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D703CE641F052E5500F24AA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D7368AA41EBBCB56003D2076 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,6 +46,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D703CE661F052E5500F24AA9 /* DS_DOUBLE_CHAINED_LIST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS_DOUBLE_CHAINED_LIST; sourceTree = BUILT_PRODUCTS_DIR; };
+		D703CE681F052E5500F24AA9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D703CE6D1F052E7F00F24AA9 /* DoubleChainedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DoubleChainedList.c; sourceTree = "<group>"; };
+		D703CE6E1F052E7F00F24AA9 /* DoubleChainedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleChainedList.h; sourceTree = "<group>"; };
 		D7368AA61EBBCB56003D2076 /* ED_LISTA_EST_05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ED_LISTA_EST_05; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7368AA91EBBCB56003D2076 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		D7368AB01EBBCB6B003D2076 /* ListaSequencial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListaSequencial.h; sourceTree = "<group>"; };
@@ -46,6 +61,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D703CE631F052E5500F24AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7368AA31EBBCB56003D2076 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,11 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D703CE671F052E5500F24AA9 /* DS_DOUBLE_CHAINED_LIST */ = {
+			isa = PBXGroup;
+			children = (
+				D703CE681F052E5500F24AA9 /* main.c */,
+				D703CE6D1F052E7F00F24AA9 /* DoubleChainedList.c */,
+				D703CE6E1F052E7F00F24AA9 /* DoubleChainedList.h */,
+			);
+			path = DS_DOUBLE_CHAINED_LIST;
+			sourceTree = "<group>";
+		};
 		D7368A9D1EBBCB56003D2076 = {
 			isa = PBXGroup;
 			children = (
 				D7368AA81EBBCB56003D2076 /* ED_LISTA_EST_05 */,
 				D792D3981F03E73C00F8C738 /* ED_LISTA_DUPLAMENTE_ENC */,
+				D703CE671F052E5500F24AA9 /* DS_DOUBLE_CHAINED_LIST */,
 				D7368AA71EBBCB56003D2076 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +110,7 @@
 			children = (
 				D7368AA61EBBCB56003D2076 /* ED_LISTA_EST_05 */,
 				D792D3971F03E73C00F8C738 /* ED_LISTA_DUPLAMENTE_ENC */,
+				D703CE661F052E5500F24AA9 /* DS_DOUBLE_CHAINED_LIST */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +138,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D703CE651F052E5500F24AA9 /* DS_DOUBLE_CHAINED_LIST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D703CE6C1F052E5500F24AA9 /* Build configuration list for PBXNativeTarget "DS_DOUBLE_CHAINED_LIST" */;
+			buildPhases = (
+				D703CE621F052E5500F24AA9 /* Sources */,
+				D703CE631F052E5500F24AA9 /* Frameworks */,
+				D703CE641F052E5500F24AA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DS_DOUBLE_CHAINED_LIST;
+			productName = DS_DOUBLE_CHAINED_LIST;
+			productReference = D703CE661F052E5500F24AA9 /* DS_DOUBLE_CHAINED_LIST */;
+			productType = "com.apple.product-type.tool";
+		};
 		D7368AA51EBBCB56003D2076 /* ED_LISTA_EST_05 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7368AAD1EBBCB56003D2076 /* Build configuration list for PBXNativeTarget "ED_LISTA_EST_05" */;
@@ -147,6 +198,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Wooba;
 				TargetAttributes = {
+					D703CE651F052E5500F24AA9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y799YUNDK5;
+						ProvisioningStyle = Automatic;
+					};
 					D7368AA51EBBCB56003D2076 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = Y799YUNDK5;
@@ -173,11 +229,21 @@
 			targets = (
 				D7368AA51EBBCB56003D2076 /* ED_LISTA_EST_05 */,
 				D792D3961F03E73C00F8C738 /* ED_LISTA_DUPLAMENTE_ENC */,
+				D703CE651F052E5500F24AA9 /* DS_DOUBLE_CHAINED_LIST */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D703CE621F052E5500F24AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D703CE691F052E5500F24AA9 /* main.c in Sources */,
+				D703CE6F1F052E7F00F24AA9 /* DoubleChainedList.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7368AA21EBBCB56003D2076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +265,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D703CE6A1F052E5500F24AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y799YUNDK5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D703CE6B1F052E5500F24AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y799YUNDK5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D7368AAB1EBBCB56003D2076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -323,6 +405,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D703CE6C1F052E5500F24AA9 /* Build configuration list for PBXNativeTarget "DS_DOUBLE_CHAINED_LIST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D703CE6A1F052E5500F24AA9 /* Debug */,
+				D703CE6B1F052E5500F24AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D7368AA11EBBCB56003D2076 /* Build configuration list for PBXProject "ED_LISTA_EST_05" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -348,6 +438,7 @@
 				D792D39C1F03E73C00F8C738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

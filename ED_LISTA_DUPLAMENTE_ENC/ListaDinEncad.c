@@ -152,3 +152,30 @@ int remove_list(List* li, int regID) {
     free(current);
     return 1;
 }
+
+int search_by_position(List* li, int position, struct student *stud) {
+    if (empty(li)) return 0;
+    Elem* node = (*li);
+    int i = 1;
+    while (node != NULL && i < position) {
+        node = node->next;
+    }
+    if (node == NULL) return 0;
+    else {
+        *stud = node->data;
+        return 1;
+    }
+}
+
+int search_by_registry(List* li, int regID, struct student *stud) {
+    if (empty(li)) return 0;
+    Elem *node = (*li);
+    while (node != NULL && node->data.registrationID != regID) {
+        node = node->next;
+    }
+    if (node == NULL) return 0;
+    else {
+        *stud = node->data;
+        return 1;
+    }
+}
