@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>DS_DYNAMIC_QUEUE.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>DS_STATIC_QUEUE.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0A9E8A251F426E1600528EA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AA38F7C1F43BAE400A17767</key>
 		<dict>
 			<key>primary</key>
 			<true/>
