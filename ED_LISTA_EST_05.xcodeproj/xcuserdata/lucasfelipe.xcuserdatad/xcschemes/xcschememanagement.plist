@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>DS_STATIC_STACK.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>ED_LISTA_DUPLAMENTE_ENC.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -42,6 +47,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0A91A5BF1F4672BD00BCC3B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0A9E8A251F426E1600528EA4</key>
 		<dict>
 			<key>primary</key>
