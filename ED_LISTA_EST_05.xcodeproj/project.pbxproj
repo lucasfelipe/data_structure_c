@@ -13,6 +13,8 @@
 		0A9E8A2F1F426E3B00528EA4 /* StaticQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E8A2D1F426E3B00528EA4 /* StaticQueue.c */; };
 		0AA38F801F43BAE400A17767 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AA38F7F1F43BAE400A17767 /* main.c */; };
 		0AA38F861F43BB6500A17767 /* DynamicQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AA38F841F43BB6500A17767 /* DynamicQueue.c */; };
+		0AC47C721F4BAA7C00B251F6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AC47C711F4BAA7C00B251F6 /* main.c */; };
+		0AC47C781F4BAA9400B251F6 /* DynamicStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AC47C761F4BAA9400B251F6 /* DynamicStack.c */; };
 		D703CE691F052E5500F24AA9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D703CE681F052E5500F24AA9 /* main.c */; };
 		D703CE6F1F052E7F00F24AA9 /* DoubleChainedList.c in Sources */ = {isa = PBXBuildFile; fileRef = D703CE6D1F052E7F00F24AA9 /* DoubleChainedList.c */; };
 		D7368AAA1EBBCB56003D2076 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D7368AA91EBBCB56003D2076 /* main.c */; };
@@ -45,6 +47,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		0AA38F7B1F43BAE400A17767 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AC47C6D1F4BAA7C00B251F6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -113,6 +124,10 @@
 		0AA38F7F1F43BAE400A17767 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0AA38F841F43BB6500A17767 /* DynamicQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DynamicQueue.c; sourceTree = "<group>"; };
 		0AA38F851F43BB6500A17767 /* DynamicQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicQueue.h; sourceTree = "<group>"; };
+		0AC47C6F1F4BAA7C00B251F6 /* DS_DYNAMIC_STACK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS_DYNAMIC_STACK; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC47C711F4BAA7C00B251F6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0AC47C761F4BAA9400B251F6 /* DynamicStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DynamicStack.c; sourceTree = "<group>"; };
+		0AC47C771F4BAA9400B251F6 /* DynamicStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicStack.h; sourceTree = "<group>"; };
 		D703CE661F052E5500F24AA9 /* DS_DOUBLE_CHAINED_LIST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS_DOUBLE_CHAINED_LIST; sourceTree = BUILT_PRODUCTS_DIR; };
 		D703CE681F052E5500F24AA9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		D703CE6D1F052E7F00F24AA9 /* DoubleChainedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DoubleChainedList.c; sourceTree = "<group>"; };
@@ -151,6 +166,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0AA38F7A1F43BAE400A17767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC47C6C1F4BAA7C00B251F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,6 +247,16 @@
 			path = DS_DYNAMIC_QUEUE;
 			sourceTree = "<group>";
 		};
+		0AC47C701F4BAA7C00B251F6 /* DS_DYNAMIC_STACK */ = {
+			isa = PBXGroup;
+			children = (
+				0AC47C711F4BAA7C00B251F6 /* main.c */,
+				0AC47C761F4BAA9400B251F6 /* DynamicStack.c */,
+				0AC47C771F4BAA9400B251F6 /* DynamicStack.h */,
+			);
+			path = DS_DYNAMIC_STACK;
+			sourceTree = "<group>";
+		};
 		D703CE671F052E5500F24AA9 /* DS_DOUBLE_CHAINED_LIST */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +278,7 @@
 				0A9E8A271F426E1600528EA4 /* DS_STATIC_QUEUE */,
 				0AA38F7E1F43BAE400A17767 /* DS_DYNAMIC_QUEUE */,
 				0A91A5C11F4672BD00BCC3B9 /* DS_STATIC_STACK */,
+				0AC47C701F4BAA7C00B251F6 /* DS_DYNAMIC_STACK */,
 				D7368AA71EBBCB56003D2076 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -261,6 +294,7 @@
 				0A9E8A261F426E1600528EA4 /* DS_STATIC_QUEUE */,
 				0AA38F7D1F43BAE400A17767 /* DS_DYNAMIC_QUEUE */,
 				0A91A5C01F4672BD00BCC3B9 /* DS_STATIC_STACK */,
+				0AC47C6F1F4BAA7C00B251F6 /* DS_DYNAMIC_STACK */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -357,6 +391,23 @@
 			name = DS_DYNAMIC_QUEUE;
 			productName = DS_DYNAMIC_QUEUE;
 			productReference = 0AA38F7D1F43BAE400A17767 /* DS_DYNAMIC_QUEUE */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AC47C6E1F4BAA7C00B251F6 /* DS_DYNAMIC_STACK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC47C751F4BAA7C00B251F6 /* Build configuration list for PBXNativeTarget "DS_DYNAMIC_STACK" */;
+			buildPhases = (
+				0AC47C6B1F4BAA7C00B251F6 /* Sources */,
+				0AC47C6C1F4BAA7C00B251F6 /* Frameworks */,
+				0AC47C6D1F4BAA7C00B251F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DS_DYNAMIC_STACK;
+			productName = DS_DYNAMIC_STACK;
+			productReference = 0AC47C6F1F4BAA7C00B251F6 /* DS_DYNAMIC_STACK */;
 			productType = "com.apple.product-type.tool";
 		};
 		D703CE651F052E5500F24AA9 /* DS_DOUBLE_CHAINED_LIST */ = {
@@ -465,6 +516,10 @@
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
+					0AC47C6E1F4BAA7C00B251F6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 					D703CE651F052E5500F24AA9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = Y799YUNDK5;
@@ -512,6 +567,7 @@
 				0A9E8A251F426E1600528EA4 /* DS_STATIC_QUEUE */,
 				0AA38F7C1F43BAE400A17767 /* DS_DYNAMIC_QUEUE */,
 				0A91A5BF1F4672BD00BCC3B9 /* DS_STATIC_STACK */,
+				0AC47C6E1F4BAA7C00B251F6 /* DS_DYNAMIC_STACK */,
 			);
 		};
 /* End PBXProject section */
@@ -541,6 +597,15 @@
 			files = (
 				0AA38F801F43BAE400A17767 /* main.c in Sources */,
 				0AA38F861F43BB6500A17767 /* DynamicQueue.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC47C6B1F4BAA7C00B251F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC47C781F4BAA9400B251F6 /* DynamicStack.c in Sources */,
+				0AC47C721F4BAA7C00B251F6 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +693,20 @@
 			name = Debug;
 		};
 		0AA38F821F43BAE400A17767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AC47C731F4BAA7C00B251F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AC47C741F4BAA7C00B251F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -813,6 +892,7 @@
 				0A91A5C51F4672BD00BCC3B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A9E8A2C1F426E1600528EA4 /* Build configuration list for PBXNativeTarget "DS_STATIC_QUEUE" */ = {
 			isa = XCConfigurationList;
@@ -831,6 +911,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0AC47C751F4BAA7C00B251F6 /* Build configuration list for PBXNativeTarget "DS_DYNAMIC_STACK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC47C731F4BAA7C00B251F6 /* Debug */,
+				0AC47C741F4BAA7C00B251F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		D703CE6C1F052E5500F24AA9 /* Build configuration list for PBXNativeTarget "DS_DOUBLE_CHAINED_LIST" */ = {
 			isa = XCConfigurationList;

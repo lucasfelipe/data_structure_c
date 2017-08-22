@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>DS_DYNAMIC_STACK.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>DS_STATIC_QUEUE.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>0AA38F7C1F43BAE400A17767</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AC47C6E1F4BAA7C00B251F6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
