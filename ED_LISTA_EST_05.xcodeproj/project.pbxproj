@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5DD5751F54E16900172683 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DD5741F54E16900172683 /* main.c */; };
 		0A91A5C31F4672BD00BCC3B9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A91A5C21F4672BD00BCC3B9 /* main.c */; };
 		0A91A5C91F46730A00BCC3B9 /* SequencialStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A91A5C71F46730A00BCC3B9 /* SequencialStack.c */; };
 		0A9E8A291F426E1600528EA4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E8A281F426E1600528EA4 /* main.c */; };
@@ -28,6 +29,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0A5DD5701F54E16900172683 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0A91A5BE1F4672BD00BCC3B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,6 +122,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A5DD5721F54E16900172683 /* DS_SEARCH_VECTOR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS_SEARCH_VECTOR; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5DD5741F54E16900172683 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0A91A5C01F4672BD00BCC3B9 /* DS_STATIC_STACK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS_STATIC_STACK; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A91A5C21F4672BD00BCC3B9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0A91A5C71F46730A00BCC3B9 /* SequencialStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SequencialStack.c; sourceTree = "<group>"; };
@@ -151,6 +163,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A5DD56F1F54E16900172683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A91A5BD1F4672BD00BCC3B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +236,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A5DD5731F54E16900172683 /* DS_SEARCH_VECTOR */ = {
+			isa = PBXGroup;
+			children = (
+				0A5DD5741F54E16900172683 /* main.c */,
+			);
+			path = DS_SEARCH_VECTOR;
+			sourceTree = "<group>";
+		};
 		0A91A5C11F4672BD00BCC3B9 /* DS_STATIC_STACK */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +306,7 @@
 				0AA38F7E1F43BAE400A17767 /* DS_DYNAMIC_QUEUE */,
 				0A91A5C11F4672BD00BCC3B9 /* DS_STATIC_STACK */,
 				0AC47C701F4BAA7C00B251F6 /* DS_DYNAMIC_STACK */,
+				0A5DD5731F54E16900172683 /* DS_SEARCH_VECTOR */,
 				D7368AA71EBBCB56003D2076 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -295,6 +323,7 @@
 				0AA38F7D1F43BAE400A17767 /* DS_DYNAMIC_QUEUE */,
 				0A91A5C01F4672BD00BCC3B9 /* DS_STATIC_STACK */,
 				0AC47C6F1F4BAA7C00B251F6 /* DS_DYNAMIC_STACK */,
+				0A5DD5721F54E16900172683 /* DS_SEARCH_VECTOR */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,6 +371,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0A5DD5711F54E16900172683 /* DS_SEARCH_VECTOR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5DD5781F54E16900172683 /* Build configuration list for PBXNativeTarget "DS_SEARCH_VECTOR" */;
+			buildPhases = (
+				0A5DD56E1F54E16900172683 /* Sources */,
+				0A5DD56F1F54E16900172683 /* Frameworks */,
+				0A5DD5701F54E16900172683 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DS_SEARCH_VECTOR;
+			productName = DS_SEARCH_VECTOR;
+			productReference = 0A5DD5721F54E16900172683 /* DS_SEARCH_VECTOR */;
+			productType = "com.apple.product-type.tool";
+		};
 		0A91A5BF1F4672BD00BCC3B9 /* DS_STATIC_STACK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A91A5C61F4672BD00BCC3B9 /* Build configuration list for PBXNativeTarget "DS_STATIC_STACK" */;
@@ -504,6 +550,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Wooba;
 				TargetAttributes = {
+					0A5DD5711F54E16900172683 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 					0A91A5BF1F4672BD00BCC3B9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
@@ -568,11 +618,20 @@
 				0AA38F7C1F43BAE400A17767 /* DS_DYNAMIC_QUEUE */,
 				0A91A5BF1F4672BD00BCC3B9 /* DS_STATIC_STACK */,
 				0AC47C6E1F4BAA7C00B251F6 /* DS_DYNAMIC_STACK */,
+				0A5DD5711F54E16900172683 /* DS_SEARCH_VECTOR */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A5DD56E1F54E16900172683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5DD5751F54E16900172683 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A91A5BC1F4672BD00BCC3B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -657,6 +716,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0A5DD5761F54E16900172683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A5DD5771F54E16900172683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0A91A5C41F4672BD00BCC3B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -885,6 +958,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A5DD5781F54E16900172683 /* Build configuration list for PBXNativeTarget "DS_SEARCH_VECTOR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5DD5761F54E16900172683 /* Debug */,
+				0A5DD5771F54E16900172683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0A91A5C61F4672BD00BCC3B9 /* Build configuration list for PBXNativeTarget "DS_STATIC_STACK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -919,6 +1000,7 @@
 				0AC47C741F4BAA7C00B251F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D703CE6C1F052E5500F24AA9 /* Build configuration list for PBXNativeTarget "DS_DOUBLE_CHAINED_LIST" */ = {
 			isa = XCConfigurationList;
